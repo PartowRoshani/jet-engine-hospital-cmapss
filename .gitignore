@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/scratch/*
+!notebooks/scratch/.gitkeep
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Raw and generated datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Generated machine-learning artifacts
+artifacts/experiments/*
+artifacts/models/*
+artifacts/preprocessing/*
+artifacts/calibrators/*
+artifacts/thresholds/*
+artifacts/metadata/*
+
+!artifacts/experiments/.gitkeep
+!artifacts/models/.gitkeep
+!artifacts/preprocessing/.gitkeep
+!artifacts/calibrators/.gitkeep
+!artifacts/thresholds/.gitkeep
+!artifacts/metadata/.gitkeep
+
+# Temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Build files
+build/
+dist/
+*.egg-info/
