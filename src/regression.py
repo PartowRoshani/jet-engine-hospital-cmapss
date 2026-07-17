@@ -305,3 +305,70 @@ def evaluate_rul_regions(
         )
 
     return results
+def prepare_official_test_evaluation(
+    test_df,
+    official_rul,
+):
+    """
+    Select the final observed cycle of each official test engine
+    and attach its true remaining useful life.
+
+    The rows of RUL_FD001 correspond to engine IDs sorted in
+    ascending order.
+    """
+    required_columns = {
+        "engine_id",
+        "cycle",
+    }
+
+    missing_columns = required_columns.difference(
+        test_df.columns
+    )
+
+    if missing_columns:
+        raise ValueError(
+            "Missing required columns: "
+            f"{sorted(missing_columns)}"
+        )
+
+    last_cycle_rows = (
+        test_df
+        .sort_values(
+            ["engine_id", "cycle"]
+        )
+        .groupby(
+            "engine_id",
+            as_index=False,
+        )
+        .tail(1)
+        .sort_values("engine_id")
+        .reset_index(drop=True)
+    )
+
+    true_rul = np.asarray(
+        official_rul
+    ).reshape(-1)
+
+    if len(last_cycle_rows) != len(true_rul):
+        raise ValueError(
+            "The number of official test engines "
+            "does not match the number of RUL values. "
+            f"Engines={len(last_cycle_rows)}, "
+            f"RUL values={len(true_rul)}"
+        )
+
+    if not np.isfinite(true_rul).all():
+        raise ValueError(
+            "Official RUL values contain "
+            "NaN or infinite values."
+        )
+
+    evaluation_df = (
+        last_cycle_rows.copy()
+    )
+
+    evaluation_df[
+        "actual_RUL"
+    ] = true_rul.astype(float)
+
+    return evaluation_df

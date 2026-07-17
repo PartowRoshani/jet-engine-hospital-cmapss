@@ -1,0 +1,2 @@
+Model,MAE,RMSE,R2,NASA Score,Near-failure MAE,Late prediction rate,Evaluation rows,Evaluation unit,Training engines
+Polynomial Ridge — Official FD001 Test,20.30424023633244,26.43808861380816,0.5952372260467307,4421.830306564493,13.812216139002485,0.68,100,Final observation per engine,100
