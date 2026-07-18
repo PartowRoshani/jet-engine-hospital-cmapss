@@ -1,0 +1,6 @@
+Metric,Estimate,CI lower,CI upper,Confidence level,Method
+Mean lead time,36.266666666666666,28.533333333333335,45.934999999999974,0.95,Engine bootstrap
+Median lead time,30.0,25.0,39.0,0.95,Engine bootstrap
+Mean late-warning delay,2.2,0.7333333333333333,3.933333333333333,0.95,Engine bootstrap
+Mean early-warning burden,8.466666666666667,1.5983333333333407,17.666666666666668,0.95,Engine bootstrap
+Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval

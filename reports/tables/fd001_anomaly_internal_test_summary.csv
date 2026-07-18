@@ -1,0 +1,2 @@
+Dataset,Model,Percentile threshold,Persistence rule,Total engines,Detected engines,Missed engines,Miss rate,Mean lead time,Median lead time,Mean late-warning delay,Mean early-warning burden,Mean asymmetric cost
+Internal test,Isolation Forest,0.9999,2-of-3,15,15,0,0.0,36.266666666666666,30.0,2.2,8.466666666666667,19.466666666666665

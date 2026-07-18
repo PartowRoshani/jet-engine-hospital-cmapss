@@ -1,0 +1,5 @@
+Percentile threshold,Healthy false-alarm rate,Near-failure detection rate,Precision,Recall,True negatives,False positives,False negatives,True positives,Persistence rule,Total engines,Detected engines,Missed engines,Miss rate,Mean lead time,Median lead time,Mean late-warning delay,Mean early-warning burden,Mean asymmetric cost
+0.995,0.0022222222222222222,1.0,0.4931071049840933,1.0,2119,478,0,465,2-of-3,15,15,0,0.0,66.0,60.0,0.0,36.0,36.0
+0.99,0.006666666666666667,1.0,0.45058139534883723,1.0,2030,567,0,465,2-of-3,15,15,0,0.0,75.53333333333333,66.0,0.0,45.53333333333333,45.53333333333333
+0.975,0.035555555555555556,1.0,0.4005167958656331,1.0,1901,696,0,465,2-of-3,15,15,0,0.0,88.4,72.0,0.0,58.4,58.4
+0.95,0.07777777777777778,1.0,0.3501506024096386,1.0,1734,863,0,465,2-of-3,15,15,0,0.0,121.4,88.0,0.0,91.4,91.4
