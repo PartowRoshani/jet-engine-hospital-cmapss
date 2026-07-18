@@ -1,0 +1,16 @@
+engine_id,Horizon,Failure cycle,First persistent alert cycle,Lead time,Missed warning,Late-warning delay,Early-warning burden,Persistence rule,Dataset
+1,10,192,188,4,0,6,0,2-of-3,Internal test
+11,10,240,235,5,0,5,0,2-of-3,Internal test
+10,10,222,215,7,0,3,0,2-of-3,Internal test
+31,10,234,226,8,0,2,0,2-of-3,Internal test
+77,10,154,146,8,0,2,0,2-of-3,Internal test
+31,20,234,220,14,0,6,0,2-of-3,Internal test
+1,20,192,174,18,0,2,0,2-of-3,Internal test
+43,20,207,189,18,0,2,0,2-of-3,Internal test
+45,20,158,140,18,0,2,0,2-of-3,Internal test
+78,20,231,212,19,0,1,0,2-of-3,Internal test
+45,30,158,134,24,0,6,0,2-of-3,Internal test
+78,30,231,206,25,0,5,0,2-of-3,Internal test
+97,30,202,177,25,0,5,0,2-of-3,Internal test
+77,30,154,126,28,0,2,0,2-of-3,Internal test
+5,30,269,240,29,0,1,0,2-of-3,Internal test

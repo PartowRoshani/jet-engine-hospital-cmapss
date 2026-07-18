@@ -1,0 +1,31 @@
+Dataset,Horizon,Metric,Estimate,CI lower,CI upper,Confidence level,Method
+Internal test,10,Mean lead time,9.733333333333333,8.19833333333334,11.4,0.95,Engine bootstrap
+Internal test,10,Median lead time,10.0,8.0,11.0,0.95,Engine bootstrap
+Internal test,10,Mean late-warning delay,1.4,0.5333333333333333,2.466666666666667,0.95,Engine bootstrap
+Internal test,10,Mean early-warning burden,1.1333333333333333,0.26666666666666666,2.2,0.95,Engine bootstrap
+Internal test,10,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
+Internal test,20,Mean lead time,21.4,19.4,23.533333333333335,0.95,Engine bootstrap
+Internal test,20,Median lead time,22.0,18.0,24.0,0.95,Engine bootstrap
+Internal test,20,Mean late-warning delay,0.9333333333333333,0.26666666666666666,1.8016666666666425,0.95,Engine bootstrap
+Internal test,20,Mean early-warning burden,2.3333333333333335,0.9333333333333333,4.0,0.95,Engine bootstrap
+Internal test,20,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
+Internal test,30,Mean lead time,34.13333333333333,30.266666666666666,39.0,0.95,Engine bootstrap
+Internal test,30,Median lead time,34.0,28.0,39.0,0.95,Engine bootstrap
+Internal test,30,Mean late-warning delay,1.2666666666666666,0.3333333333333333,2.4,0.95,Engine bootstrap
+Internal test,30,Mean early-warning burden,5.4,2.2666666666666666,9.733333333333333,0.95,Engine bootstrap
+Internal test,30,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
+Validation,10,Mean lead time,11.8,10.133333333333333,13.666666666666666,0.95,Engine bootstrap
+Validation,10,Median lead time,11.0,9.0,12.0,0.95,Engine bootstrap
+Validation,10,Mean late-warning delay,0.4666666666666667,0.06666666666666667,0.9333333333333333,0.95,Engine bootstrap
+Validation,10,Mean early-warning burden,2.2666666666666666,0.8666666666666667,3.8666666666666667,0.95,Engine bootstrap
+Validation,10,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
+Validation,20,Mean lead time,25.933333333333334,22.333333333333332,29.933333333333334,0.95,Engine bootstrap
+Validation,20,Median lead time,24.0,22.0,28.0,0.95,Engine bootstrap
+Validation,20,Mean late-warning delay,0.5333333333333333,0.06666666666666667,1.0666666666666667,0.95,Engine bootstrap
+Validation,20,Mean early-warning burden,6.466666666666667,3.1333333333333333,10.2,0.95,Engine bootstrap
+Validation,20,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
+Validation,30,Mean lead time,38.93333333333333,34.93333333333333,43.20166666666665,0.95,Engine bootstrap
+Validation,30,Median lead time,37.0,32.0,41.0,0.95,Engine bootstrap
+Validation,30,Mean late-warning delay,0.2,0.0,0.6,0.95,Engine bootstrap
+Validation,30,Mean early-warning burden,9.133333333333333,5.266666666666667,13.333333333333334,0.95,Engine bootstrap
+Validation,30,Miss rate,0.0,0.0,0.20388330103584854,0.95,Wilson interval
