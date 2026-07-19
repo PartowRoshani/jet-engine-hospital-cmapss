@@ -1,0 +1,4 @@
+Metric,Estimate,CI lower,CI upper,Confidence level,Method
+Empirical coverage,0.9252122795558458,0.8378641746300595,0.9910193562185862,0.95,Engine bootstrap
+Average interval width,105.61397574761328,104.73954641329203,106.39575431089973,0.95,Engine bootstrap
+Median interval width,111.96305609050319,111.96305609050319,111.96305609050319,0.95,Engine bootstrap
