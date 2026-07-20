@@ -1,0 +1,15 @@
+{
+  "action_horizon": 30,
+  "dataset": "FD001",
+  "feature_count": 15,
+  "healthy_training_rows": 2100,
+  "model_name": "Isolation Forest",
+  "percentile_threshold": 0.9999,
+  "persistence": {
+    "alerts_required": 2,
+    "window_size": 3
+  },
+  "reference_score_file": "fd001_anomaly_healthy_raw_scores.npy",
+  "score_direction": "Larger raw score means more anomalous",
+  "training_reference": "First 30 cycles of 70 training engines"
+}

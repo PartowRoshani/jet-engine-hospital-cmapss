@@ -29,6 +29,14 @@ from sklearn.preprocessing import (
     StandardScaler,
 )
 
+from typing import Any
+from sklearn.base import BaseEstimator, RegressorMixin
+
+from typing import Any
+
+import numpy as np
+from sklearn.base import BaseEstimator, RegressorMixin
+
 from src.config import RANDOM_STATE
 
 def make_dummy_regressor() -> DummyRegressor:
@@ -372,3 +380,46 @@ def prepare_official_test_evaluation(
     ] = true_rul.astype(float)
 
     return evaluation_df
+
+
+class NonNegativeRegressor(
+    BaseEstimator,
+    RegressorMixin,
+):
+    """
+    Wrap a fitted regression model and enforce a physical
+    lower bound on its predictions.
+
+    For RUL prediction, the default lower bound is zero
+    because negative remaining useful life is not meaningful.
+    """
+
+    def __init__(
+        self,
+        estimator: Any,
+        lower_bound: float = 0.0,
+    ) -> None:
+        self.estimator = estimator
+        self.lower_bound = lower_bound
+
+    def fit(
+        self,
+        X: Any,
+        y: Any,
+    ) -> "NonNegativeRegressor":
+        self.estimator.fit(X, y)
+        return self
+
+    def predict(
+        self,
+        X: Any,
+    ) -> np.ndarray:
+        predictions = np.asarray(
+            self.estimator.predict(X),
+            dtype=float,
+        )
+
+        return np.maximum(
+            predictions,
+            float(self.lower_bound),
+        )

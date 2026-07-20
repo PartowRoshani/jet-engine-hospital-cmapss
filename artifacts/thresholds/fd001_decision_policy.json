@@ -1,0 +1,34 @@
+{
+  "actions": [
+    "CONTINUE",
+    "INSPECT",
+    "STOP"
+  ],
+  "dataset": "FD001",
+  "hysteresis": {
+    "enabled": true,
+    "order": "CONTINUE -> INSPECT -> STOP",
+    "reset_required_for_downgrade": true
+  },
+  "internal_test_average_cost": 0.6417,
+  "internal_test_unnecessary_stops": 0,
+  "internal_test_unsafe_misses": 0,
+  "persistence": {
+    "alerts_required": 2,
+    "window_size": 3
+  },
+  "policy_name": "supervised_only",
+  "review_cycles": {
+    "CONTINUE": 10,
+    "INSPECT": 1,
+    "STOP": 0
+  },
+  "rules": {
+    "anomaly_signal": "Advisory evidence",
+    "conformal_interval": "Advisory evidence",
+    "persistent_10_cycle_risk": "STOP",
+    "persistent_20_cycle_risk": "INSPECT",
+    "persistent_30_cycle_risk": "INSPECT"
+  },
+  "validation_average_cost": 0.4425
+}

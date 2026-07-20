@@ -1,0 +1,112 @@
+{
+  "artifact_version": "1.0.1",
+  "artifacts": {
+    "anomaly_config": {
+      "filename": "fd001_anomaly_config.json",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\thresholds\\fd001_anomaly_config.json",
+      "relative_path": "artifacts/thresholds/fd001_anomaly_config.json",
+      "sha256": "9c070bd5a8e0eb5f90bca6a5149be494027155dbc59420d14297ca11652fc4dd",
+      "size_bytes": 453
+    },
+    "anomaly_model": {
+      "filename": "fd001_isolation_forest.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_isolation_forest.joblib",
+      "relative_path": "artifacts/models/fd001_isolation_forest.joblib",
+      "sha256": "8d3ea928886976fbbc80b6c87bcd59f090efb89817407177288af4b58b8a9d8c",
+      "size_bytes": 957956
+    },
+    "anomaly_reference_scores": {
+      "filename": "fd001_anomaly_healthy_raw_scores.npy",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\reference\\fd001_anomaly_healthy_raw_scores.npy",
+      "relative_path": "artifacts/reference/fd001_anomaly_healthy_raw_scores.npy",
+      "sha256": "c18a906fd34417c77bc9b9bc3139092d7943add59d3a607bb9bed2149a1b39ea",
+      "size_bytes": 16928
+    },
+    "classification_config": {
+      "filename": "fd001_classification_config.json",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\thresholds\\fd001_classification_config.json",
+      "relative_path": "artifacts/thresholds/fd001_classification_config.json",
+      "sha256": "6c6b876901daf381e475b4235dac41cfe547a24a6cbf1e1739c85cb2fe0f528d",
+      "size_bytes": 531
+    },
+    "classifier_10": {
+      "filename": "fd001_failure_10_classifier.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_failure_10_classifier.joblib",
+      "relative_path": "artifacts/models/fd001_failure_10_classifier.joblib",
+      "sha256": "756cca5902e546d457b79bdde7e56bead4521f6a7b4c26a3b7e955d5d3be1948",
+      "size_bytes": 135683
+    },
+    "classifier_20": {
+      "filename": "fd001_failure_20_classifier.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_failure_20_classifier.joblib",
+      "relative_path": "artifacts/models/fd001_failure_20_classifier.joblib",
+      "sha256": "68b15fe44ac6bfa35f77667a31db36e689b6cfebff223525f816ca78bcc93d24",
+      "size_bytes": 134141
+    },
+    "classifier_30": {
+      "filename": "fd001_failure_30_classifier.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_failure_30_classifier.joblib",
+      "relative_path": "artifacts/models/fd001_failure_30_classifier.joblib",
+      "sha256": "fe8ffeb1b715b21ec5a165a83a143316fc6c656632c8d9f4593b90010155235f",
+      "size_bytes": 134146
+    },
+    "conformal_config": {
+      "filename": "fd001_conformal_config.json",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\thresholds\\fd001_conformal_config.json",
+      "relative_path": "artifacts/thresholds/fd001_conformal_config.json",
+      "sha256": "7fb3e84323c5ae6bc9770663c5c316693ced56e0c30827e1cd1aabc376566472",
+      "size_bytes": 533
+    },
+    "decision_policy_config": {
+      "filename": "fd001_decision_policy.json",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\thresholds\\fd001_decision_policy.json",
+      "relative_path": "artifacts/thresholds/fd001_decision_policy.json",
+      "sha256": "f2316f067555cbc6a0387b45314040ee6db4b541da9e3a9a2e39745a91912b8f",
+      "size_bytes": 819
+    },
+    "feature_schema": {
+      "filename": "fd001_feature_schema.json",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\metadata\\fd001_feature_schema.json",
+      "relative_path": "artifacts/metadata/fd001_feature_schema.json",
+      "sha256": "98b2804d69250a19514063dd72521cd87281a5905aff3ebd8bac4441d2719120",
+      "size_bytes": 5059
+    },
+    "rul_evaluation_model": {
+      "filename": "fd001_rul_regressor_evaluation.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_rul_regressor_evaluation.joblib",
+      "relative_path": "artifacts/models/fd001_rul_regressor_evaluation.joblib",
+      "sha256": "4fa0f908ab0b78bd45f5956881be932f1e5405884385ebe22a5c39c8db6bf85c",
+      "size_bytes": 6987
+    },
+    "rul_full_train_model": {
+      "filename": "fd001_rul_regressor_full_train.joblib",
+      "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\models\\fd001_rul_regressor_full_train.joblib",
+      "relative_path": "artifacts/models/fd001_rul_regressor_full_train.joblib",
+      "sha256": "eed115f5956698507c2ab00d9231f23fbe0fe979a6ca66b2995722d671d924b7",
+      "size_bytes": 6988
+    }
+  },
+  "created_at_utc": "2026-07-20T19:41:40.917989+00:00",
+  "dataset": "NASA C-MAPSS FD001",
+  "library_versions": {
+    "joblib": "1.5.3",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0"
+  },
+  "locked_models": {
+    "anomaly": "Isolation Forest",
+    "classification": "Calibrated weighted logistic regression",
+    "decision_policy": "supervised_only",
+    "rul": "Polynomial Ridge degree 2, alpha 0.01"
+  },
+  "project": "Jet Engine Hospital",
+  "python_version": "3.11.1",
+  "random_state": 42,
+  "training_scope": {
+    "evaluation_models": "70 training engines",
+    "full_train_rul_model": "100 FD001 training engines",
+    "internal_test_engines": 15,
+    "validation_engines": 15
+  }
+}

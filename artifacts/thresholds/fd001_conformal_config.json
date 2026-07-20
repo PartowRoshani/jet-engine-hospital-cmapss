@@ -1,0 +1,16 @@
+{
+  "calibration_rows": 3062,
+  "confidence_level": 0.95,
+  "dataset": "FD001",
+  "internal_test_average_width": 105.614,
+  "internal_test_coverage": 0.9252,
+  "lower_physical_bound": 0.0,
+  "method": "Validation-calibrated symmetric split conformal",
+  "point_model": "Polynomial Ridge degree 2, alpha 0.01",
+  "prediction_postprocessing": {
+    "lower_bound": 0.0,
+    "operation": "prediction = max(0, raw_prediction)",
+    "reason": "Remaining useful life cannot be negative"
+  },
+  "quantile": 55.98152804525159
+}

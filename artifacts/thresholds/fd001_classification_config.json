@@ -1,0 +1,24 @@
+{
+  "dataset": "FD001",
+  "horizons": {
+    "10": {
+      "calibration": "isotonic",
+      "threshold": 0.3
+    },
+    "20": {
+      "calibration": "sigmoid",
+      "threshold": 0.29
+    },
+    "30": {
+      "calibration": "sigmoid",
+      "threshold": 0.27
+    }
+  },
+  "model_family": "Calibrated weighted logistic regression",
+  "monotonic_correction": "cumulative maximum across horizons",
+  "persistence": {
+    "alerts_required": 2,
+    "window_size": 3
+  },
+  "probability_rule": "P10 <= P20 <= P30"
+}
