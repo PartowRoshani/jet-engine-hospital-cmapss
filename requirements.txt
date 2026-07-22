@@ -10,3 +10,4 @@ jupyterlab
 ipykernel
 streamlit
 pytest
+streamlit==1.59.2
