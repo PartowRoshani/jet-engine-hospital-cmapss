@@ -1,5 +1,5 @@
 {
-  "artifact_version": "1.0.1",
+  "artifact_version": "1.0.2",
   "artifacts": {
     "anomaly_config": {
       "filename": "fd001_anomaly_config.json",
@@ -54,8 +54,8 @@
       "filename": "fd001_conformal_config.json",
       "path": "C:\\Users\\User\\Desktop\\ML\\FinalProject\\artifacts\\thresholds\\fd001_conformal_config.json",
       "relative_path": "artifacts/thresholds/fd001_conformal_config.json",
-      "sha256": "7fb3e84323c5ae6bc9770663c5c316693ced56e0c30827e1cd1aabc376566472",
-      "size_bytes": 533
+      "sha256": "3d916916c4a2617054742c62f1b3a7b077bd457a42beb0d63e5ad9dac6e22a70",
+      "size_bytes": 542
     },
     "decision_policy_config": {
       "filename": "fd001_decision_policy.json",
@@ -86,7 +86,7 @@
       "size_bytes": 6988
     }
   },
-  "created_at_utc": "2026-07-20T19:41:40.917989+00:00",
+  "created_at_utc": "2026-07-22T21:26:40.424791+00:00",
   "dataset": "NASA C-MAPSS FD001",
   "library_versions": {
     "joblib": "1.5.3",

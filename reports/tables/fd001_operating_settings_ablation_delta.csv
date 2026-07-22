@@ -1,0 +1,3 @@
+Split,Removed features,MAE change,RMSE change,R2 change,NASA score change,Near-failure MAE change
+Validation,"operational_setting_1, operational_setting_2",-0.056380663184331326,-0.05255213875732068,0.000702425836433429,-1423.4557152893976,0.08569760847797525
+Internal Test,"operational_setting_1, operational_setting_2",-0.07609813060382109,-0.04298396260974613,0.0006329041221365683,94.9670570907183,-0.10690943104012085

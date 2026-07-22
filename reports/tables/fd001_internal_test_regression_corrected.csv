@@ -1,0 +1,2 @@
+Prediction source,MAE,RMSE,R2,NASA score,Near-failure MAE,Late-prediction rate,Prediction minimum,Prediction maximum
+Locked evaluation artifact,24.092042898549913,31.029149736874736,0.7714020837853605,136526.9086766392,10.229465037499853,0.6593729588504246,0.0,233.68319036950925
