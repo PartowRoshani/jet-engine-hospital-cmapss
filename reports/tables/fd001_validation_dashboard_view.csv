@@ -1,0 +1,16 @@
+engine_id,cycle,RUL prediction,RUL lower,RUL upper,probability_10,probability_20,probability_30,anomaly_percentile,Action,Confidence,Trigger,Next review cycles,Signal disagreement
+13,163,31.186808529300635,0.0,87.16833657455223,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+16,209,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+19,158,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+23,168,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+27,156,30.181834991652366,0.0,86.16336303690396,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+32,191,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+41,216,6.603004216910705,0.0,62.5845322621623,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+46,256,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+54,257,2.5617044812332495,0.0,58.54323252648484,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+56,275,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+71,208,11.461993886940164,0.0,67.44352193219176,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+73,213,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+81,240,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+89,217,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
+91,135,0.0,0.0,55.98152804525159,1.0,1.0,1.0,1.0,STOP,HIGH,Persistent calibrated 10-cycle failure risk,0,False
