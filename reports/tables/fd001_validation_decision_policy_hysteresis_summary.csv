@@ -1,0 +1,4 @@
+Policy,Samples,Average cost,Total cost,Unsafe misses,Delayed inspections,Unnecessary inspections,Unnecessary stops,STOP recall,INSPECT-or-higher recall,Raw action downgrades,Action downgrades,Hysteresis-retained rows,Operationally feasible
+supervised_only,3062,0.4425212279555846,1355.0,0,3,137,0,0.9575757575757575,0.9935483870967742,6,0,32,True
+uncertainty_aware,3062,1.2491835401698237,3825.0,0,1,251,28,1.0,0.9978494623655914,28,0,126,True
+full_fusion,3062,1.3455258001306336,4120.0,0,0,318,28,1.0,1.0,31,0,114,True

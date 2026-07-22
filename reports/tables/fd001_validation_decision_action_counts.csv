@@ -1,0 +1,10 @@
+Policy,Action,Count
+full_fusion,CONTINUE,2337
+full_fusion,INSPECT,349
+full_fusion,STOP,376
+supervised_only,CONTINUE,2495
+supervised_only,INSPECT,375
+supervised_only,STOP,192
+uncertainty_aware,CONTINUE,2417
+uncertainty_aware,INSPECT,269
+uncertainty_aware,STOP,376

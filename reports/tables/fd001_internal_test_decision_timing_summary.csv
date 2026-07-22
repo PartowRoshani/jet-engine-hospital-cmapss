@@ -1,0 +1,2 @@
+Total engines,Engines receiving INSPECT-or-STOP,INSPECT miss rate,Mean INSPECT lead time,Median INSPECT lead time,Mean INSPECT late delay,Engines receiving STOP,STOP miss rate,Mean STOP lead time,Median STOP lead time,Mean STOP late delay
+15,15,0.0,34.13333333333333,34.0,1.2666666666666666,15,0.0,9.733333333333333,10.0,1.4

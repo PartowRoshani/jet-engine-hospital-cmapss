@@ -1,0 +1,4 @@
+Policy,Samples,Average cost,Total cost,Unsafe misses,Delayed inspections,Unnecessary inspections,Unnecessary stops,STOP recall,INSPECT-or-higher recall,Action downgrades,Operationally feasible
+supervised_only,3062,0.4637491835401698,1420.0,0,8,110,0,0.9575757575757575,0.9827956989247312,6,False
+uncertainty_aware,3062,1.0124101894186806,3100.0,0,2,168,14,1.0,0.9956989247311828,28,False
+full_fusion,3062,1.1136512083605488,3410.0,0,0,246,14,1.0,1.0,31,False
