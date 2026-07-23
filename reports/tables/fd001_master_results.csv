@@ -1,0 +1,114 @@
+Section,Dataset,Subgroup,Metric,Estimate,CI lower,CI upper,Confidence level,Unit,Note,Source file
+Regression,FD001 internal test,,Late-prediction rate,0.6593729588504246,,,,,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,MAE,24.092042898549916,,,,cycles,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,NASA penalty per row,44.587494669052646,,,,,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,NASA score,136526.9086766392,,,,,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,Near-failure MAE,10.229465037499851,,,,cycles,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,R2,0.7714020837853605,,,,,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression,FD001 internal test,,RMSE,31.029149736874736,,,,cycles,Locked training-only evaluation model,fd001_internal_test_regression_corrected.csv
+Regression uncertainty,FD001 internal test,,Late-prediction rate,0.6593729588504246,0.4864418602016013,0.8372740685964393,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,MAE,24.092042898549916,17.370400783693874,31.519350629883714,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,NASA penalty per row,44.587494669052646,17.50541226986114,78.45926446837643,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,NASA score,136526.9086766392,54703.60779806874,239436.09781899725,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,Near-failure MAE,10.229465037499851,6.804642476780426,14.488742992485816,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,R2,0.7714020837853605,0.6489145208428114,0.8708181756242634,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Regression uncertainty,FD001 internal test,,RMSE,31.029149736874736,22.965502801484647,38.65923572789302,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_regression_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,95% interval,Average interval width,105.46782699960733,,,,cycles,Validation-calibrated split conformal,fd001_internal_test_conformal_summary_corrected.csv
+Conformal uncertainty,FD001 internal test,95% interval,Conformal quantile,55.98152804525159,,,,cycles,Validation-calibrated split conformal,fd001_internal_test_conformal_summary_corrected.csv
+Conformal uncertainty,FD001 internal test,95% interval,Empirical coverage,0.9271717831482692,,,,proportion,Validation-calibrated split conformal,fd001_internal_test_conformal_summary_corrected.csv
+Conformal uncertainty,FD001 internal test,95% interval,Median interval width,111.9630560905032,,,,cycles,Validation-calibrated split conformal,fd001_internal_test_conformal_summary_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Average interval width,105.46782699960733,104.51403247754948,106.33960585923172,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Average width RUL 0-30,75.58091325925996,70.66632727286053,81.09660278260826,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Average width RUL 31-125,109.8783578029277,108.00319552032728,111.2146398494396,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Average width RUL >125,111.9630560905032,111.96305609050316,111.9630560905032,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Coverage RUL 0-30,1.0,1.0,1.0,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Coverage RUL 31-125,0.9592982456140352,0.8975438596491228,0.9964912280701754,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Coverage RUL >125,0.8592150170648464,0.6589242947586691,0.9980582995112672,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Median interval width,111.9630560905032,111.9630560905032,111.9630560905032,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Conformal uncertainty,FD001 internal test,Engine bootstrap,Overall coverage,0.9271717831482692,0.835343702398949,0.991906312897786,0.95,,Engine percentile bootstrap; 5000 bootstrap samples,fd001_internal_test_conformal_ci_corrected.csv
+Classification,FD001 internal test,10-cycle horizon,F1,0.880466472303207,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,False negatives,14.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,False positives,27.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,PR-AUC,0.953598189324585,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,Precision,0.848314606741573,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,ROC-AUC,0.9969173962615454,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,Recall,0.9151515151515152,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,10-cycle horizon,Threshold,0.3,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,F1,0.9071537290715372,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,False negatives,17.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,False positives,44.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,PR-AUC,0.9722084319353111,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,Precision,0.8713450292397661,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,ROC-AUC,0.9967884156453504,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,Recall,0.946031746031746,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,20-cycle horizon,Threshold,0.29,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,F1,0.9065040650406504,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,False negatives,19.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,False positives,73.0,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,PR-AUC,0.978330537996525,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,Precision,0.859344894026975,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,ROC-AUC,0.9958297622152938,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,Recall,0.9591397849462364,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Classification,FD001 internal test,30-cycle horizon,Threshold,0.27,,,,,Calibrated Monotonic Logistic,fd001_internal_test_classification_results.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Healthy false-alarm rate,0.0,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Near-failure detection rate,0.913978494623656,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,PR-AUC,0.9435063623947988,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Percentile threshold,0.9999,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Precision,0.800376647834275,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,ROC-AUC,0.9889210462030216,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Recall,0.913978494623656,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly detection,FD001 internal test,Isolation Forest,Spearman raw score vs degradation,0.6101354871466305,,,,,,fd001_anomaly_internal_test_metrics.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Detected engines,15.0,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Mean early-warning burden,8.466666666666667,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Mean late-warning delay,2.2,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Mean lead time,36.266666666666666,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Median lead time,30.0,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Miss rate,0.0,,,,,,fd001_anomaly_internal_test_summary.csv
+Anomaly warning,FD001 internal test,2-of-3 persistence,Missed engines,0.0,,,,,,fd001_anomaly_internal_test_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Action downgrades,0.0,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Average cost,0.6417374265186153,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Delayed inspections,19.0,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,INSPECT-or-higher recall,0.9591397849462364,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,STOP recall,0.8727272727272727,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Unnecessary inspections,81.0,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Unnecessary stops,0.0,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance decision,FD001 internal test,supervised_only,Unsafe misses,0.0,,,,,Hysteresis enabled,fd001_internal_test_decision_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,INSPECT miss rate,0.0,,,,,,fd001_internal_test_decision_timing_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,Mean INSPECT lead time,34.13333333333333,,,,,,fd001_internal_test_decision_timing_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,Mean STOP lead time,9.733333333333333,,,,,,fd001_internal_test_decision_timing_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,Median INSPECT lead time,34.0,,,,,,fd001_internal_test_decision_timing_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,Median STOP lead time,10.0,,,,,,fd001_internal_test_decision_timing_summary.csv
+Maintenance timing,FD001 internal test,Engine-level timing,STOP miss rate,0.0,,,,,,fd001_internal_test_decision_timing_summary.csv
+Ablation,FD001,Internal Test,MAE change,-0.076098130603821,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Internal Test,NASA score change,94.9670570907183,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Internal Test,Near-failure MAE change,-0.1069094310401208,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Internal Test,R2 change,0.0006329041221365,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Internal Test,RMSE change,-0.0429839626097461,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Validation,MAE change,-0.0563806631843313,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Validation,NASA score change,-1423.4557152893976,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Validation,Near-failure MAE change,0.0856976084779752,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Validation,R2 change,0.0007024258364334,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Ablation,FD001,Validation,RMSE change,-0.0525521387573206,,,,,"Removed: operational_setting_1, operational_setting_2",fd001_operating_settings_ablation_delta.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,Evaluation rows,100.0,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,Late prediction rate,0.68,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,MAE,20.30424023633244,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,NASA Score,4421.830306564493,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,Near-failure MAE,13.812216139002484,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,R2,0.5952372260467307,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,RMSE,26.43808861380816,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Official FD001 test,NASA C-MAPSS official test,Final observation per engine,Training engines,100.0,,,,,Polynomial Ridge — Official FD001 Test,fd001_official_test_regression_results.csv
+Deployment,FD001 artifact bundle,Artifact version 1.0.2,Artifact count,12.0,,,,,,fd001_artifact_size_summary.csv
+Deployment,FD001 artifact bundle,Artifact version 1.0.2,Largest artifact MB,0.9135780334472656,,,,,,fd001_artifact_size_summary.csv
+Deployment,FD001 artifact bundle,Artifact version 1.0.2,Total size MB,1.3353662490844729,,,,,,fd001_artifact_size_summary.csv
+Deployment latency,Current workstation,Fleet latest snapshots,Median latency ms,102.6744499686174,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Fleet latest snapshots,P95 latency ms,106.1418100114679,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Fleet latest snapshots,Rows per second,146.09282060517268,,,,rows/second,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,Median latency ms,2195.3961499675643,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,P95 latency ms,2295.4905600025086,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,Rows per second,1394.736890672437,,,,rows/second,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),Median latency ms,143.88779998989776,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),P95 latency ms,307.753024986596,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),Rows per second,1403.8716278529678,,,,rows/second,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,Median latency ms,98.5056999779772,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,P95 latency ms,119.23394000041296,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,Rows per second,10.151696807632137,,,,rows/second,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv

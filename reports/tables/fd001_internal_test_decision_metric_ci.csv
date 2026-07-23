@@ -1,0 +1,8 @@
+Metric,Estimate,CI lower,CI upper,Confidence level,Method
+Average decision cost,0.6417374265186153,0.4638781942799121,0.835099622545933,0.95,Engine bootstrap
+STOP recall,0.8727272727272727,0.7818181818181819,0.9515151515151515,0.95,Engine bootstrap
+INSPECT-or-higher recall,0.9591397849462365,0.9225806451612903,0.989247311827957,0.95,Engine bootstrap
+Unsafe miss rate,0.0,0.0,0.0,0.95,Engine bootstrap
+Delayed inspection rate,0.06333333333333334,0.016666666666666666,0.12,0.95,Engine bootstrap
+Unnecessary inspection rate,0.03118983442433577,0.013352099110257028,0.0540167096482195,0.95,Engine bootstrap
+Unnecessary stop rate,0.0,0.0,0.0,0.95,Engine bootstrap

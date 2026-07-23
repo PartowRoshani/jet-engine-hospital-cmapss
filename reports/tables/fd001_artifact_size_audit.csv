@@ -1,0 +1,13 @@
+Artifact,Category,Filename,Relative path,Size bytes,Size KB,Size MB,SHA-256 prefix
+anomaly_model,Model,fd001_isolation_forest.joblib,artifacts/models/fd001_isolation_forest.joblib,957956,935.50390625,0.9135780334472656,8d3ea9288869
+classifier_10,Model,fd001_failure_10_classifier.joblib,artifacts/models/fd001_failure_10_classifier.joblib,135683,132.5029296875,0.12939739227294922,756cca5902e5
+classifier_30,Model,fd001_failure_30_classifier.joblib,artifacts/models/fd001_failure_30_classifier.joblib,134146,131.001953125,0.1279315948486328,fe8ffeb1b715
+classifier_20,Model,fd001_failure_20_classifier.joblib,artifacts/models/fd001_failure_20_classifier.joblib,134141,130.9970703125,0.12792682647705078,68b15fe44ac6
+anomaly_reference_scores,Reference data,fd001_anomaly_healthy_raw_scores.npy,artifacts/reference/fd001_anomaly_healthy_raw_scores.npy,16928,16.53125,0.016143798828125,c18a906fd344
+rul_full_train_model,Model,fd001_rul_regressor_full_train.joblib,artifacts/models/fd001_rul_regressor_full_train.joblib,6988,6.82421875,0.006664276123046875,eed115f59566
+rul_evaluation_model,Model,fd001_rul_regressor_evaluation.joblib,artifacts/models/fd001_rul_regressor_evaluation.joblib,6987,6.8232421875,0.006663322448730469,4fa0f908ab0b
+feature_schema,Metadata,fd001_feature_schema.json,artifacts/metadata/fd001_feature_schema.json,5059,4.9404296875,0.004824638366699219,98b2804d6925
+decision_policy_config,Configuration,fd001_decision_policy.json,artifacts/thresholds/fd001_decision_policy.json,819,0.7998046875,0.0007810592651367188,f2316f067555
+conformal_config,Configuration,fd001_conformal_config.json,artifacts/thresholds/fd001_conformal_config.json,542,0.529296875,0.0005168914794921875,3d916916c4a2
+classification_config,Configuration,fd001_classification_config.json,artifacts/thresholds/fd001_classification_config.json,531,0.5185546875,0.0005064010620117188,6c6b876901da
+anomaly_config,Configuration,fd001_anomaly_config.json,artifacts/thresholds/fd001_anomaly_config.json,453,0.4423828125,0.00043201446533203125,9c070bd5a8e0

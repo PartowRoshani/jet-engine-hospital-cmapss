@@ -1,0 +1,2 @@
+Platform,Processor,Python version,NumPy version,Pandas version,Scikit-learn version,Artifact version,Internal-test rows,Internal-test engines,Timing clock,Timing note
+Windows-10-10.0.26200-SP0,"Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",3.11.1,2.4.6,3.0.3,1.9.0,1.0.2,3062,15,time.perf_counter,Warm-process latency; filesystem cache may affect artifact loading

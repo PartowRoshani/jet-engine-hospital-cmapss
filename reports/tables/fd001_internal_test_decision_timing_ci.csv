@@ -1,0 +1,11 @@
+Metric,Estimate,CI lower,CI upper,Confidence level,Method
+INSPECT miss rate,0.0,0.0,0.0,0.95,Engine bootstrap
+Mean INSPECT lead time,34.13333333333333,30.333333333333332,38.86666666666667,0.95,Engine bootstrap
+Median INSPECT lead time,34.0,28.0,39.0,0.95,Engine bootstrap
+Mean INSPECT late delay,1.2666666666666666,0.3333333333333333,2.4,0.95,Engine bootstrap
+Mean INSPECT early burden,5.4,2.2666666666666666,9.6,0.95,Engine bootstrap
+STOP miss rate,0.0,0.0,0.0,0.95,Engine bootstrap
+Mean STOP lead time,9.733333333333333,8.133333333333333,11.4,0.95,Engine bootstrap
+Median STOP lead time,10.0,8.0,11.0,0.95,Engine bootstrap
+Mean STOP late delay,1.4,0.5333333333333333,2.4,0.95,Engine bootstrap
+Mean STOP early burden,1.1333333333333333,0.26666666666666666,2.2,0.95,Engine bootstrap
