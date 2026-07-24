@@ -1,0 +1,2 @@
+Dataset,Selection split,Candidate,Feature configuration,Feature count,Prediction ceiling,Safety offset,Validation MAE,Validation RMSE,Validation R2,Validation NASA Score,Validation near-failure MAE,Validation late-prediction rate,RMSE guardrail,Near-failure MAE guardrail,Internal test accessed,Internal-test evaluation count,Post-evaluation tuning permitted
+FD003,Validation,Ridge — Temporal | alpha=1000,Temporal,147,300.0,0.0,49.04682047949197,64.83449603802333,0.6589528078091078,479336759.45432734,14.8734337974898,0.5463665943600867,67.29496421021769,20.0,True,1,False

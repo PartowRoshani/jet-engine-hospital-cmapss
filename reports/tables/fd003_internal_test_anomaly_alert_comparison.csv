@@ -1,0 +1,3 @@
+Dataset,Model,Alert rule,Normalized threshold,Samples,Predicted positive rate,Precision,Recall,F1,True negatives,False positives,False negatives,True positives,Total asymmetric cost,Cost per row
+FD003 internal test,Isolation Forest,Direct threshold,3.6907450945212577,3626,0.21621621621621623,0.5701530612244898,0.9612903225806452,0.7157726180944756,2824,337,18,447,463.0,0.12768891340319913
+FD003 internal test,Isolation Forest,Persistent 2-of-3,3.6907450945212577,3626,0.2084942084942085,0.5925925925925926,0.9634408602150538,0.7338247338247338,2853,308,17,448,427.0,0.11776061776061776

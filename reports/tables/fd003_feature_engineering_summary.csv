@@ -1,0 +1,2 @@
+Train rows,Validation rows,Internal-test rows,Current-cycle feature count,Temporal feature count,Generated temporal features,Delta feature count,Maximum first-cycle delta,Missing model features,Infinite model features,Causality test passed
+17406,3688,3626,19,147,128,32,0.0,0,0,True

@@ -1,0 +1,25 @@
+Check,Passed,Details
+Train-validation engine overlap,True,Expected overlap: 0
+Train-internal-test engine overlap,True,Expected overlap: 0
+Validation-internal-test engine overlap,True,Expected overlap: 0
+Temporal causality test,True,Future perturbation must not change past features
+Regression internal-test evaluation count,True,1
+Regression post-test tuning disabled,True,Expected: False
+Classification internal-test evaluation count,True,1
+Classification post-test tuning disabled,True,Expected: False
+Anomaly internal-test evaluation count,True,1
+Anomaly post-test tuning disabled,True,Expected: False
+Regression predictions finite,True,Rows: 3626
+Classification probabilities finite,True,Rows: 3626
+Anomaly scores finite,True,Rows: 3626
+Policy downgrade violations,True,0
+Integrated policy row count,True,3626 of 3626
+Output exists: fd003_master_results.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd003_master_results.csv
+Output exists: fd003_failure_analysis.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd003_failure_analysis.csv
+Output exists: fd001_fd003_final_comparison.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_fd003_final_comparison.csv
+Output exists: fd003_feature_representation_ablation.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd003_feature_representation_ablation.csv
+Output exists: fd003_probability_calibration_ablation.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd003_probability_calibration_ablation.csv
+Output exists: fd003_policy_contract.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd003_policy_contract.csv
+Output exists: fd001_fd003_regression_error_comparison.png,True,c:\Users\User\Desktop\ML\FinalProject\reports\figures\fd001_fd003_regression_error_comparison.png
+Output exists: fd001_fd003_conformal_width_comparison.png,True,c:\Users\User\Desktop\ML\FinalProject\reports\figures\fd001_fd003_conformal_width_comparison.png
+Output exists: fd001_fd003_policy_tradeoff.png,True,c:\Users\User\Desktop\ML\FinalProject\reports\figures\fd001_fd003_policy_tradeoff.png

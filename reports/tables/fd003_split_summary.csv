@@ -1,0 +1,4 @@
+Split,Engines,Rows,Minimum RUL,Maximum RUL
+Train,70,17406,0,493
+Validation,15,3688,0,524
+Internal test,15,3626,0,405

@@ -1,0 +1,2 @@
+Engine ID,Engine rows,Cutoff cycle,Compared prefix rows,Compared feature columns,Maximum difference after truncation,Maximum difference after future perturbation,Causality test passed
+29,223,112,112,147,0.0,0.0,True

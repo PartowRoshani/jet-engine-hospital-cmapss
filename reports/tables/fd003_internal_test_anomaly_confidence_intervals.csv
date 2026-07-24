@@ -1,0 +1,19 @@
+Alert rule,Metric,Estimate,CI lower,CI upper,Confidence level,Method,Bootstrap samples,Engine count
+Direct threshold,Precision,0.5701530612244898,0.42992112203698885,0.753448275862069,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,Recall,0.9612903225806452,0.9333333333333333,0.9849462365591398,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,F1,0.7157726180944756,0.5960506446485341,0.839077726888701,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,ROC-AUC,0.9658621710157055,0.948005861135033,0.9875950001365605,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,PR-AUC,0.7624383233127403,0.6744757410831927,0.9386678878446943,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,False positives,337.0,144.0,602.0,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,False negatives,18.0,7.0,31.0,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,Total asymmetric cost,463.0,296.0,692.0249999999996,0.95,Engine-level percentile bootstrap,5000,15
+Direct threshold,Cost per row,0.12768891340319913,0.08727151841888076,0.17377597162609554,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,Precision,0.5925925925925926,0.4459442684988862,0.7836975145923553,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,Recall,0.9634408602150538,0.9376344086021505,0.9870967741935484,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,F1,0.7338247338247338,0.6110731066112267,0.8590736873900139,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,ROC-AUC,0.9658621710157055,0.948005861135033,0.9875950001365605,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,PR-AUC,0.7624383233127403,0.6744757410831927,0.9386678878446943,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,False positives,308.0,122.0,562.0,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,False negatives,17.0,6.0,29.0,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,Total asymmetric cost,427.0,265.0,652.0,0.95,Engine-level percentile bootstrap,5000,15
+Persistent 2-of-3,Cost per row,0.11776061776061776,0.07903097063774701,0.16180532740595177,0.95,Engine-level percentile bootstrap,5000,15

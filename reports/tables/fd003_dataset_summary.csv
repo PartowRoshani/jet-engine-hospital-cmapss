@@ -1,0 +1,4 @@
+Dataset,Rows,Columns,Unique engines
+Training,24720,26,100
+Official test,16596,26,100
+Official test RUL,100,1,100

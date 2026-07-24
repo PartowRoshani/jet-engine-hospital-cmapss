@@ -100,15 +100,15 @@ Official FD001 test,NASA C-MAPSS official test,Final observation per engine,Trai
 Deployment,FD001 artifact bundle,Artifact version 1.0.2,Artifact count,12.0,,,,,,fd001_artifact_size_summary.csv
 Deployment,FD001 artifact bundle,Artifact version 1.0.2,Largest artifact MB,0.9135780334472656,,,,,,fd001_artifact_size_summary.csv
 Deployment,FD001 artifact bundle,Artifact version 1.0.2,Total size MB,1.3353662490844729,,,,,,fd001_artifact_size_summary.csv
-Deployment latency,Current workstation,Fleet latest snapshots,Median latency ms,102.6744499686174,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Fleet latest snapshots,P95 latency ms,106.1418100114679,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Fleet latest snapshots,Rows per second,146.09282060517268,,,,rows/second,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Full internal test,Median latency ms,2195.3961499675643,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Full internal test,P95 latency ms,2295.4905600025086,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Full internal test,Rows per second,1394.736890672437,,,,rows/second,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,One engine history (engine 97),Median latency ms,143.88779998989776,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,One engine history (engine 97),P95 latency ms,307.753024986596,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,One engine history (engine 97),Rows per second,1403.8716278529678,,,,rows/second,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Single snapshot,Median latency ms,98.5056999779772,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Single snapshot,P95 latency ms,119.23394000041296,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
-Deployment latency,Current workstation,Single snapshot,Rows per second,10.151696807632137,,,,rows/second,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Fleet latest snapshots,Median latency ms,190.1818500191439,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Fleet latest snapshots,P95 latency ms,203.3599399786908,,,,milliseconds,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Fleet latest snapshots,Rows per second,78.87187972190871,,,,rows/second,15 rows; 30 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,Median latency ms,1231.4102000091225,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,P95 latency ms,1271.858880011132,,,,milliseconds,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Full internal test,Rows per second,2486.5800201893053,,,,rows/second,3062 rows; 10 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),Median latency ms,249.8685999889858,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),P95 latency ms,263.0889950261917,,,,milliseconds,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,One engine history (engine 97),Rows per second,808.4249081673494,,,,rows/second,202 rows; 20 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,Median latency ms,184.0638499706984,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,P95 latency ms,202.7934600046137,,,,milliseconds,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv
+Deployment latency,Current workstation,Single snapshot,Rows per second,5.432897335132307,,,,rows/second,1 rows; 50 repeats,fd001_inference_latency_benchmark.csv

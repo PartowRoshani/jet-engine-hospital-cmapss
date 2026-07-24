@@ -1,0 +1,2 @@
+Dataset,Confidence level,Conformal quantile,Samples,Engines,Coverage,Average width,Median width,Minimum width,Maximum width,Lower misses,Upper misses,Total misses
+FD003 internal test,0.95,134.0199116417185,3626,15,0.9503585217870932,235.29672752549988,263.3581134993458,134.0199116417185,268.03982328343704,71,109,180

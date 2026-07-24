@@ -1,0 +1,4 @@
+Horizon,Model,Calibration method,Threshold,Training engines,Training rows,Positive samples,Positive rate,Feature count,Calibration source
+10,Weighted Logistic,Sigmoid,0.09999999999999999,100,24720,1100,0.04449838187702265,147,Five-fold engine-grouped out-of-fold probabilities
+20,Weighted Logistic,Isotonic,0.08,100,24720,2100,0.08495145631067962,147,Five-fold engine-grouped out-of-fold probabilities
+30,Weighted Logistic,Isotonic,0.08,100,24720,3100,0.12540453074433658,147,Five-fold engine-grouped out-of-fold probabilities

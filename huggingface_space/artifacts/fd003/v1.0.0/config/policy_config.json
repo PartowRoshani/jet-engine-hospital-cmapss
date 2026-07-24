@@ -1,0 +1,57 @@
+{
+  "dataset": "FD003",
+  "artifact_version": "1.0.0",
+  "regression": {
+    "model": "Ridge — Temporal | alpha=1000",
+    "prediction_ceiling": 300.0,
+    "safety_offset": 0.0,
+    "conformal_confidence": 0.95,
+    "deployment_conformal_quantile": 122.66367817694706
+  },
+  "classification": {
+    "probability_monotonicity": true,
+    "horizons": {
+      "10": {
+        "model": "Weighted Logistic",
+        "calibration_method": "Sigmoid",
+        "threshold": 0.09999999999999999
+      },
+      "20": {
+        "model": "Weighted Logistic",
+        "calibration_method": "Isotonic",
+        "threshold": 0.08
+      },
+      "30": {
+        "model": "Weighted Logistic",
+        "calibration_method": "Isotonic",
+        "threshold": 0.08
+      }
+    },
+    "persistence_required_alerts": 2,
+    "persistence_window": 3
+  },
+  "anomaly": {
+    "model": "Isolation Forest",
+    "healthy_reference_cycles": 30,
+    "healthy_reference_rows": 3000,
+    "threshold_quantile": 0.99,
+    "normalized_threshold": 3.715377378694916,
+    "reference_median": -0.07049717872187589,
+    "reference_scale": 0.046518247679088534,
+    "persistence_required_alerts": 2,
+    "persistence_window": 3,
+    "role": "Advisory only"
+  },
+  "maintenance_policy": {
+    "severity_order": {
+      "CONTINUE": 0,
+      "INSPECT": 1,
+      "STOP": 2
+    },
+    "stop_condition": "Persistent failure-within-10 alert",
+    "inspect_condition": "Persistent failure-within-20 or failure-within-30 alert",
+    "anomaly_role": "Advisory only",
+    "uncertainty_role": "Advisory only",
+    "hysteresis": "No downgrade within an engine trajectory"
+  }
+}

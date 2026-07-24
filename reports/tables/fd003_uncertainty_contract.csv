@@ -1,0 +1,2 @@
+Dataset,Method,Confidence level,Calibration split,Calibration rows,Conformal quantile,Lower physical bound,Point model,Prediction ceiling,Safety offset,Internal-test coverage,Average interval width,Interval role,Post-test tuning permitted
+FD003,Validation-calibrated symmetric split conformal,0.95,Validation,3688,134.0199116417185,0.0,Ridge — Temporal | alpha=1000,300.0,0.0,0.9503585217870932,235.29672752549988,Advisory evidence in maintenance policy,False

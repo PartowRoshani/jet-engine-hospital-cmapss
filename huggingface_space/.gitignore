@@ -1,0 +1,7 @@
+
+# Unified Hugging Face Space local files
+huggingface_space/.venv/
+huggingface_space/__pycache__/
+huggingface_space/src/__pycache__/
+huggingface_space/test_fd001_engine_1.csv
+huggingface_space/test_fd003_engine_1.csv

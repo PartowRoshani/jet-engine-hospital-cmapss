@@ -1,0 +1,2 @@
+Dataset,Rows,Engines,Exact action accuracy,Over-alert rate,Under-alert rate,Mean severity error,STOP recall for RUL <= 10,At-least-INSPECT recall for RUL <= 30,Early STOP rate for RUL > 10,Early intervention rate for RUL > 30,Anomaly advisory rate,Conformal advisory rate,Hysteresis-retained row rate,Downgrade violations
+FD003 internal test,3626,15,0.8698290126861555,0.12879205736348592,0.0013789299503585218,0.1274131274131274,0.9818181818181818,0.9956989247311828,0.022536839063854376,0.12306232204998419,0.2084942084942085,0.7112520683949255,0.059845559845559844,0

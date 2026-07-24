@@ -1,0 +1,3 @@
+Model,MAE,RMSE,R2,NASA Score,Near-failure MAE,Late prediction rate,Dataset,Candidate,Feature configuration,Feature count,Prediction ceiling,Safety offset,Postprocessing,Evaluation rows,Evaluation unit,Training engines
+FD003 Official Test — Raw,35.74453669400396,46.749086881522416,-0.27537359077541357,27385228.687972046,16.029874559289475,0.8,NASA C-MAPSS FD003 official test,Ridge — Temporal | alpha=1000,Temporal,147,,0.0,Non-negative clipping only,100,Final observation per engine,100
+FD003 Official Test — Calibrated,35.703197813551,46.59934600271908,-0.26721643860911715,18224484.23641093,16.029874559289475,0.8,NASA C-MAPSS FD003 official test,Ridge — Temporal | alpha=1000,Temporal,147,300.0,0.0,Locked ceiling and safety offset,100,Final observation per engine,100

@@ -1,0 +1,10 @@
+Check,Passed,Details
+Output exists: fd001_internal_test_regression_corrected.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_internal_test_regression_corrected.csv
+Output exists: fd001_internal_test_regression_predictions_corrected.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_internal_test_regression_predictions_corrected.csv
+Output exists: fd001_internal_test_classification_results.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_internal_test_classification_results.csv
+Output exists: fd001_internal_test_conformal_summary_corrected.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_internal_test_conformal_summary_corrected.csv
+Output exists: fd001_internal_test_decision_confusion.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_internal_test_decision_confusion.csv
+Output exists: fd001_official_test_regression_results.csv,True,c:\Users\User\Desktop\ML\FinalProject\reports\tables\fd001_official_test_regression_results.csv
+Corrected regression MAE,True,24.092042898549916
+Corrected regression RMSE,True,31.029149736874736
+Corrected regression R2,True,0.7714020837853605

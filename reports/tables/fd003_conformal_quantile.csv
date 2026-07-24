@@ -1,0 +1,2 @@
+Dataset,Calibration split,Calibration rows,Confidence level,Finite-sample quantile level,Conformal quantile,Nominal symmetric width,Point model,Prediction ceiling,Safety offset
+FD003,Validation,3688,0.95,0.9503796095444685,134.0199116417185,268.039823283437,Ridge — Temporal | alpha=1000,300.0,0.0

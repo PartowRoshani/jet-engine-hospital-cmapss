@@ -1,0 +1,4 @@
+Metric,Estimate,CI lower,CI upper,Confidence level,Method,Bootstrap samples,Engine count
+Coverage,0.9503585217870932,0.8833621861411621,1.0,0.95,Engine-level percentile bootstrap,5000,15
+Average interval width,235.29672752549988,228.97592686281797,240.77868298101083,0.95,Engine-level percentile bootstrap,5000,15
+Median interval width,263.3581134993458,246.6550286061119,268.03982328343693,0.95,Engine-level percentile bootstrap,5000,15

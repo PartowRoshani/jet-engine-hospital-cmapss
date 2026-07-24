@@ -1,0 +1,2 @@
+Training rows,Training engines,Missing values,Infinite values,Exact duplicate rows,Duplicate engine-cycle keys,Non-unit cycle gaps,Constant feature count,Minimum RUL,Maximum RUL
+24720,100,0,0,0,0,0,6,0.0,524.0

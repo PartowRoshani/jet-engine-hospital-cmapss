@@ -1,0 +1,4 @@
+Horizon,Engines,Detected engines,Missed engines,Detection rate,Miss rate,Mean first-alert RUL,Median first-alert RUL,Mean late delay,Median late delay,Mean early alert cycles,Median early alert cycles,Maximum early alert cycles
+10,15,15,0,1.0,0.0,15.0,14.0,0.2,0.0,5.2,4.0,14
+20,15,15,0,1.0,0.0,32.86666666666667,28.0,0.0,0.0,10.733333333333333,8.0,39
+30,15,15,0,1.0,0.0,55.8,42.0,0.13333333333333333,0.0,11.466666666666667,7.0,61

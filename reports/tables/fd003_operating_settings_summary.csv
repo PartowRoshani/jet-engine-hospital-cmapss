@@ -1,0 +1,4 @@
+Feature,Unique values,Minimum,Maximum,Standard deviation
+operational_setting_1,160,-0.0086,0.0086,0.002193544584526439
+operational_setting_2,14,-0.0006,0.0007,0.0002940428870590445
+operational_setting_3,1,100.0,100.0,0.0

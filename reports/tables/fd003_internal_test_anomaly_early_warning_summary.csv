@@ -1,0 +1,2 @@
+Dataset,Model,Persistence rule,Engines,Detected engines,Missed engines,Detection rate,Miss rate,Mean first-alert RUL,Median first-alert RUL,Mean late delay,Median late delay,Mean early alert cycles,Median early alert cycles,Maximum early alert cycles
+FD003 internal test,Isolation Forest,2-of-3,15,15,0,1.0,0.0,60.666666666666664,41.0,0.8666666666666667,0.0,20.533333333333335,11.0,117

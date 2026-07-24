@@ -1,0 +1,2 @@
+Dataset,Model,Training engines,Healthy cycles per engine,Healthy reference rows,Feature count,Score normalization,Reference median,Reference scale,Threshold quantile,Deployment normalized threshold,Persistence rule
+FD003,Isolation Forest,100,30,3000,16,Healthy-reference median and IQR,-0.07049717872187589,0.046518247679088534,0.99,3.715377378694916,2-of-3

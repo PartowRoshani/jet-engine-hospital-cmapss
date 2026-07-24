@@ -1,0 +1,4 @@
+Decision,Removed features,Removed feature count,Removed rows,Affected engines,Rationale
+Remove constant input features,"sensor_1, operational_setting_3, sensor_5, sensor_18, sensor_19, sensor_16",6,0,100,Constant features contain no discriminative information.
+Exclude identifiers and targets from model inputs,"engine_id, final_cycle, RUL, failure_within_10, failure_within_20, failure_within_30",6,0,100,Identifiers and target columns must not be used as predictors.
+Preserve all valid observations,,0,0,0,"No missing values, duplicate keys, infinite values, or cycle gaps exist."

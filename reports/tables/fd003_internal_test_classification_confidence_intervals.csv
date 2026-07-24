@@ -1,0 +1,31 @@
+Horizon,Metric,Estimate,CI lower,CI upper,Confidence level,Method,Bootstrap samples,Engine count
+10,Precision,0.649402390438247,0.5749128919860628,0.737100885858135,0.95,Engine-level percentile bootstrap,5000,15
+10,Recall,0.9878787878787879,0.9636363636363636,1.0,0.95,Engine-level percentile bootstrap,5000,15
+10,F1,0.7836538461538461,0.7284768211920529,0.8402061855670103,0.95,Engine-level percentile bootstrap,5000,15
+10,ROC-AUC,0.9978986630243492,0.9963538280848251,0.9992113056207619,0.95,Engine-level percentile bootstrap,5000,15
+10,PR-AUC,0.9623094790030909,0.92940149114122,0.9857469869014082,0.95,Engine-level percentile bootstrap,5000,15
+10,Brier score,0.007937991248409397,0.005229535469369927,0.011093943822647544,0.95,Engine-level percentile bootstrap,5000,15
+10,False positives,88.0,57.97500000000011,121.0,0.95,Engine-level percentile bootstrap,5000,15
+10,False negatives,2.0,0.0,6.0,0.95,Engine-level percentile bootstrap,5000,15
+10,Total asymmetric cost,118.0,72.0,179.0,0.95,Engine-level percentile bootstrap,5000,15
+10,Cost per row,0.03254274682846112,0.01966006036545067,0.05240484479106283,0.95,Engine-level percentile bootstrap,5000,15
+20,Precision,0.6428571428571429,0.5565371024734982,0.7274826789838337,0.95,Engine-level percentile bootstrap,5000,15
+20,Recall,1.0,1.0,1.0,0.95,Engine-level percentile bootstrap,5000,15
+20,F1,0.782608695652174,0.7150964812712827,0.8422459893048129,0.95,Engine-level percentile bootstrap,5000,15
+20,ROC-AUC,0.9962568254927059,0.9932543104727081,0.9984420691429783,0.95,Engine-level percentile bootstrap,5000,15
+20,PR-AUC,0.9573430343104059,0.9254828337284962,0.9831262445389751,0.95,Engine-level percentile bootstrap,5000,15
+20,Brier score,0.014541969825071943,0.009163822439797426,0.0218621900608247,0.95,Engine-level percentile bootstrap,5000,15
+20,False positives,175.0,118.0,251.0,0.95,Engine-level percentile bootstrap,5000,15
+20,False negatives,0.0,0.0,0.0,0.95,Engine-level percentile bootstrap,5000,15
+20,Total asymmetric cost,175.0,118.0,251.0,0.95,Engine-level percentile bootstrap,5000,15
+20,Cost per row,0.04826254826254826,0.03076091807842815,0.07270193635514396,0.95,Engine-level percentile bootstrap,5000,15
+30,Precision,0.7105666156202144,0.5931051814131543,0.8318425760286225,0.95,Engine-level percentile bootstrap,5000,15
+30,Recall,0.9978494623655914,0.9935483870967742,1.0,0.95,Engine-level percentile bootstrap,5000,15
+30,F1,0.8300536672629696,0.7439943775100402,0.9069585144037767,0.95,Engine-level percentile bootstrap,5000,15
+30,ROC-AUC,0.9956965435601228,0.9914628774132,0.9990919843352999,0.95,Engine-level percentile bootstrap,5000,15
+30,PR-AUC,0.955651546712732,0.9163729690036169,0.9926893938776292,0.95,Engine-level percentile bootstrap,5000,15
+30,Brier score,0.015727535232603167,0.008564546831000148,0.02609345654066035,0.95,Engine-level percentile bootstrap,5000,15
+30,False positives,189.0,94.0,319.0,0.95,Engine-level percentile bootstrap,5000,15
+30,False negatives,1.0,0.0,3.0,0.95,Engine-level percentile bootstrap,5000,15
+30,Total asymmetric cost,196.0,104.0,324.0,0.95,Engine-level percentile bootstrap,5000,15
+30,Cost per row,0.05405405405405406,0.027806023063992647,0.09255234556409762,0.95,Engine-level percentile bootstrap,5000,15

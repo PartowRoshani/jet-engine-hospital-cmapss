@@ -1,0 +1,2 @@
+Dataset,Training engines,Healthy cycles per engine,Healthy reference rows,Sensor count,Validation rows,Validation engines,Validation anomaly definition,Internal test accessed
+FD003,70,30,2100,16,3688,15,RUL <= 30,False

@@ -1,0 +1,3 @@
+Model,MAE,RMSE,R2,NASA Score,Near-failure MAE,Late prediction rate,Dataset,Candidate,Feature configuration,Feature count,Prediction ceiling,Safety offset,Postprocessing,Evaluation rows,Evaluation engines
+FD003 Locked Model — Raw,43.197017435106474,61.84594019068783,0.5030340296450919,407555657717.21136,11.870666489077152,0.47049089906232766,FD003 internal test,Ridge — Temporal | alpha=1000,Temporal,147,,0.0,Non-negative clipping only,3626,15
+FD003 Locked Model — Calibrated,42.522371567752195,60.061392203240366,0.5312998971045468,2945930246.987651,11.870666489077152,0.47049089906232766,FD003 internal test,Ridge — Temporal | alpha=1000,Temporal,147,300.0,0.0,Locked ceiling and safety offset,3626,15

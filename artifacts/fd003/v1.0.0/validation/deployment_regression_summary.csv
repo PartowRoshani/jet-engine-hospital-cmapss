@@ -1,0 +1,2 @@
+Dataset,Artifact version,Model,Training engines,Training rows,Feature configuration,Feature count,Prediction ceiling,Safety offset,Conformal confidence,Deployment conformal quantile,Conformal source
+FD003,1.0.0,Ridge — Temporal | alpha=1000,100,24720,Temporal,147,300.0,0.0,0.95,122.66367817694706,Five-fold engine-grouped OOF residuals from all 100 training engines

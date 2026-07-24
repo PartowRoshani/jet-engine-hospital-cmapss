@@ -1,0 +1,2 @@
+Engines,Engines receiving INSPECT or STOP,Engines receiving STOP,Missed INSPECT engines,Missed STOP engines,Mean first-intervention RUL,Median first-intervention RUL,Mean first-STOP RUL,Median first-STOP RUL,Mean intervention lead beyond 30,Mean STOP lead beyond 10
+15,15,15,0,0,55.8,42.0,15.0,14.0,25.8,5.0
