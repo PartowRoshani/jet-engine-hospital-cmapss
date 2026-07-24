@@ -1,7 +1,7 @@
-numpy
-pandas
-scikit-learn
-scipy
-joblib
-matplotlib
-gradio
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.0
+joblib==1.5.3
+matplotlib==3.11.1
+gradio==6.20.0
