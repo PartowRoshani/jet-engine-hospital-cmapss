@@ -1,0 +1,16 @@
+# Keep text files identical on Windows and Linux.
+*.py text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+
+# Never alter serialized models or NumPy arrays.
+*.joblib -text
+*.pkl -text
+*.pickle -text
+*.npy -text
+*.npz -text
