@@ -6,3 +6,4 @@ joblib==1.5.3
 matplotlib==3.11.1
 gradio==6.20.0
 streamlit==1.60.0
+starlette==1.0.1
