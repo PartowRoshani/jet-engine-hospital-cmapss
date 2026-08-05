@@ -1013,19 +1013,18 @@ policy_state_text = (
     else ""
 )
 
-st.markdown(
-    f"""
-    <div class="status-card" style="background:{status_color};">
-        <h2>{html.escape(action)}</h2>
-        {policy_state_text}
-        <p><strong>Trigger:</strong> {trigger}</p>
-        <p><strong>Confidence:</strong> {confidence}</p>
-        <p><strong>Signal disagreement:</strong> {disagreement}</p>
-        <p><strong>Next review:</strong> {html.escape(str(next_review))} cycles</p>
-    </div>
-    """,
-    unsafe_allow_html=True,
+card_html = (
+    f'<div class="status-card" style="background:{status_color};">'
+    f'<h2>{html.escape(action)}</h2>'
+    f'{policy_state_text}'
+    f'<p><strong>Trigger:</strong> {trigger}</p>'
+    f'<p><strong>Confidence:</strong> {confidence}</p>'
+    f'<p><strong>Signal disagreement:</strong> {disagreement}</p>'
+    f'<p><strong>Next review:</strong> {html.escape(str(next_review))} cycles</p>'
+    '</div>'
 )
+
+st.markdown(card_html, unsafe_allow_html=True)
 
 rul_prediction = _as_float(selected_row.get("RUL prediction"))
 rul_lower = _as_float(selected_row.get("RUL lower"))
