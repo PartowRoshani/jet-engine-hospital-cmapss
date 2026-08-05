@@ -470,7 +470,17 @@ huggingface_space/fd004_inference.py
 
 This project uses the NASA C-MAPSS turbofan-engine degradation datasets for educational machine-learning research and predictive-maintenance analysis.
 
-# Author
+## Course Instructor:
 
-**Partow Roshani**  
-Computer Science — Shahid Beheshti University
+Dr. Hadi Farahani
+
+## Author
+
+ [Partow Roshani](https://github.com/PartowRoshani/)
+
+
+## Date / Version
+
+Summer 2026
+Version 1.0
+
